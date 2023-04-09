@@ -1,0 +1,24 @@
+.recommended-section {
+    background-color: #EFFFF1;
+    padding-top: 90px;
+    padding-bottom: 159px;
+}
+
+.recommended-section-title {
+    padding-left: 138px;
+    padding-right: 138px;
+    margin-bottom: 20px;
+}
+
+.recommend-box {
+    width: 230px;
+    height: 373px;
+    margin-right: 3px;
+}
+
+@media screen and (max-width: 576px) {
+    .recommended-section-title {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

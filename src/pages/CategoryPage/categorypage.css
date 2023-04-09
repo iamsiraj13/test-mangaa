@@ -1,0 +1,28 @@
+.category-section {
+    background-color: #EFFFF1;
+    padding-top: 186px;
+    padding-bottom: 123px;
+}
+
+.category-container {
+    width: 1635px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 66px;
+    grid-row-gap: 47px;
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    .category-card {
+        display: inlie-block;
+    }
+
+    .category-container {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}

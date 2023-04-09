@@ -1,0 +1,86 @@
+.top-rated-section {
+    background-color: #EFFFF1;
+    padding-left: 138px;
+    padding-right: 138px;
+    padding-top: 17px;
+    padding-bottom: 159px;
+}
+
+.top-rate-section-title {
+    margin-bottom: 20px;
+}
+
+.top-rated-content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 246px);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+
+.top-rated-content-wrapper .p-manga-card:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.top-rated-content-wrapper .p-manga-card:nth-of-type(2) {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+.top-rated-content-wrapper .p-manga-card:nth-of-type(4) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .top-rated-section {
+        background-color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .top-rated-content-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 146px);
+        gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .top-rated-content-wrapper .p-manga-card:first-child {
+        grid-column-start: 1;
+        grid-column-end: -1;
+
+    }
+
+    .top-rated-content-wrapper .p-manga-card:nth-of-type(2) {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        border: 2px solid blue;
+
+    }
+
+    .top-rated-content-wrapper .p-manga-card:nth-of-type(4) {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+
+    }
+
+
+}

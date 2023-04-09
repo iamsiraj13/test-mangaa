@@ -1,0 +1,552 @@
+.single-banner-section {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+}
+
+.single-banner-section:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/images/singlepage/bgafter.png);
+    background-repeat: no-repeat;
+    background-position: center 400px;
+    background-size: 100%;
+}
+
+.manga-single-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-end;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.manga-single-pice-content {
+    display: flex;
+    align-items: last baseline;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    justify-content: space-between;
+
+}
+
+.manga-single-img {
+    width: 392px;
+    height: 470px;
+    transform: translateY(35px);
+    background-color: transparent;
+}
+
+.manga-single-img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 27px;
+
+}
+
+
+.manga-single-middle-content {
+    width: 791px;
+
+}
+
+.manga-single-middle-content h2 {
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+    text-shadow:
+        2px 0px 0px black,
+        /* Right shadow */
+        -2px 0px 0px black,
+        /* Left shadow */
+        0px 2px 0px black,
+        /* Bottom shadow */
+        0px -2px 0px black;
+}
+
+.manga-single-status {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.manga-single-status span:first-child {
+    background-color: #ED4848;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 25px
+}
+
+.manga-single-status span:last-child {
+    color: #0A0909;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.manga-single-tags {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.manga-single-tags span {
+    color: #4E596F;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #6EF39E;
+    padding: 5px 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.manga-single-author p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #4B4B4B;
+    text-transform: capitalize;
+}
+
+.manga-single-description {
+    margin-top: 10px;
+}
+
+.manga-single-description p {
+    font-size: 15px;
+    color: #000
+}
+
+.manga-single-more-text {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.manga-single-more-text div:first-child {
+    background-color: #6EF39E;
+    width: 627px;
+    height: 5px;
+    align-items: center;
+}
+
+.manga-single-more-text div:last-child {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #6EF39E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manga-single-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.manga-single-buttons button {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+    text-transform: uppercase;
+    border: none;
+    background-color: #6EF39E;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.manga-single-buttons span {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 1px solid #6EF39E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.similar-article-count {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+.similar-article-view {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+
+.similar-article-view span {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #0B0A0A;
+}
+
+/* middle content css end  */
+
+
+.manga-single-similar-episode {
+    width: 314px;
+}
+
+.manga-single-right-wrapper {
+    transform: translateY(134px);
+}
+
+.manga-single-right-wrapper h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 25px;
+}
+
+.single-similar-card {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    box-shadow: 0px 3px 6px 2px rgba(172, 156, 156, 0.25);
+    border-radius: 8px;
+    max-height: 113px;
+    background-color: #fff;
+}
+
+.single-similar-card-content {
+    background: #fff;
+    padding-top: 4px;
+    padding-right: 5px;
+}
+
+.similar-card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.similar-card-title h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #010101;
+}
+
+.similar-card-status {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.similar-card-status span:first-child {
+    background: #301BAD;
+    border-radius: 5.5px;
+    width: 57px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: capitalize;
+}
+
+.similar-card-status span:last-child {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.similar-card-count {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.similar-card-view {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.similar-card-view span {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.similar-card-tags span {
+    background: #6EF39E;
+    border-radius: 7.5px;
+    line-height: 15px;
+    padding: 0 9px;
+    margin-right: 4px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+/* episode list section  */
+
+.single-page-episodelist {
+    width: 100%;
+    background-color: #EFFFF1;
+    padding-top: 238px;
+    padding-bottom: 50px;
+}
+
+.single-episode-tab {
+    border-bottom: 2px solid #6EF39E;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.tab-left button,
+.tab-right button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: #797979;
+    text-transform: capitalize;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -7px;
+    cursor: pointer
+}
+
+.tab-left button img,
+.tab-right button img {
+    font-size: 25px;
+}
+
+.tab-left button {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tab-left .left-button-active {
+    color: #FF0000 !important;
+    border-bottom: 2px solid #FF0000;
+    padding-bottom: 14px !important;
+    text-shadow: 0px 0px 4px rgba(255, 0, 0, 0.55);
+}
+
+.tab-right span {
+    font-weight: 600;
+}
+
+.tab-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* episode card  */
+.episode-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.episode-card-bottom-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.episode-card-bottom-button button {
+    border: none;
+    background-color: transparent;
+}
+
+/* comments section  */
+.comments {
+    margin-top: 16px;
+}
+
+.user {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+
+.user img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-comment-form {
+    background-color: #fff;
+    width: 1074px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    padding: 20px 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 16px;
+    height: 276px;
+}
+
+.user-comment-form textarea {
+    width: 1074px;
+    border: none;
+    height: 200px;
+    outline: none;
+    border-bottom: 2px solid #6EF39E;
+}
+
+.user-comment-form button {
+    display: flex;
+    align-self: end;
+    margin-top: 24px;
+    line-height: 51px;
+    background-color: #6EF39E;
+    border: none;
+    box-shadow: 0px 0px 11px 1px rgba(110, 243, 158, 0.59);
+    border-radius: 25px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    cursor: pointer
+}
+
+.user-comments-list {
+    margin-top: 44px;
+}
+
+.commented-user p {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.comment-text {
+    margin-left: 90px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+/* ads  */
+
+
+.adds {
+    width: 100%;
+    height: 279px;
+    background: rgba(217, 217, 217, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adds h2 {
+    font-weight: 600;
+    font-size: 116px;
+    line-height: 140px;
+    text-transform: uppercase;
+    color: #A4A4A4;
+}
+
+/* recommended section  */
+
+
+.recommends-section {
+    background-color: #EFFFF1;
+    padding-top: 63px;
+    padding-bottom: 88px;
+    border-bottom: 1px solid rgba(182, 182, 182, 1)
+}
+
+.recommends-wrapper h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.recommended-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .single-banner-desktop {
+        display: none;
+    }
+
+    /* similar manga   */
+    .manga-single-similar-episode {
+        display: none;
+    }
+
+    /* recommended section  */
+    .recommends-section {
+        display: none;
+    }
+}

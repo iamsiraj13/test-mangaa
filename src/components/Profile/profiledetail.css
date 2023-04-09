@@ -1,0 +1,29 @@
+.profile-details {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.profile-details-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    gap: 35px
+}
+
+.profile-details-content p {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.profile-edit-btn img {
+    position: absolute;
+    top: 0;
+    right: 0
+}

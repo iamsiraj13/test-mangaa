@@ -1,0 +1,53 @@
+.recent-section {
+    padding-top: 90px;
+    padding-bottom: 76px;
+    background-color: #EFFFF1;
+    padding-left: 143px;
+    padding-right: 143px;
+}
+
+.recent-section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent-episode-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 355px 355px;
+    grid-row-gap: 57px;
+    grid-column-gap: 28px;
+}
+
+.recent-episode-wrapper .siraj:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+@media screen and (max-width: 576px) {
+    .recent-section {
+        padding-top: 20px;
+        padding-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .recent-episode-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 164px 133px 133px;
+        grid-row-gap: 13px;
+        grid-column-gap: 13px;
+    }
+
+    .recent-episode-wrapper .siraj:first-child {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+}

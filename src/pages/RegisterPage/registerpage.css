@@ -1,0 +1,95 @@
+.auth-form-layout {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFFFF1;
+
+}
+
+.register-page-title h3 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.login-register-box {
+    width: 844px;
+    ;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+}
+
+.login-register-box {
+    padding: 50px 75px;
+}
+
+.login-register-btn {
+    width: 497px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    opacity: 0.2;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+
+}
+
+.login-register-btn .react-tabs__tab-list {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-weight: 300;
+    font-size: 30px;
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.react-tabs__tab-list {
+    border: none !important;
+    color: black !important;
+}
+
+.login-register-btn .react-tabs__tab--selected {
+    border: none;
+    font-weight: 500;
+    outline: none
+}
+
+@media only screen and (max-width: 576px) {
+
+    .auth-form-layout {
+        /* /* padding-top: 50px; */
+        padding-bottom: 20px;
+        height: 100%;
+    }
+
+    .register-page-title h3 {
+        font-size: 24px;
+        padding-top: 15px;
+    }
+
+    .login-register-box {
+        width: 100%;
+        padding: 10px;
+        margin-left: -10px;
+    }
+
+    .login-register-btn {
+        width: 100%;
+        gap: 10px;
+    }
+
+
+
+}

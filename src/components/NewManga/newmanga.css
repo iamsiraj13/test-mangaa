@@ -1,0 +1,30 @@
+.new-manga-episode {
+    width: 100%;
+    background-color: #EFFFF1;
+    padding-top: 24px;
+
+}
+
+.new-manga-section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 40px;
+
+}
+
+.new-card-marquee {
+    display: flex;
+}
+
+.marquee {
+    --duration: 100.494s !important;
+}
+
+@media screen and (max-width: 576px) {
+    .new-manga-section-title {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

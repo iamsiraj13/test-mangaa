@@ -1,0 +1,44 @@
+.standard-card {
+    background-color: #fff;
+    position: relative;
+}
+
+
+
+.standard-card-content {
+    background-color: #fff;
+    padding: 10px
+}
+
+.card-content-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-content span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #898787;
+}
+
+.standard-card-count {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.standard-card-views {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+@media screen and (max-width: 576px) {}

@@ -1,0 +1,117 @@
+ .header-section {
+     position: absolute;
+     left: 0;
+     top: 0;
+     right: 0;
+     z-index: 9999;
+ }
+
+ .header-container {
+     width: 1195px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-around;
+     height: 93px;
+
+ }
+
+
+ .left-nav {
+     flex: 1;
+     background-color: #242A38;
+     color: #fff;
+     height: 61px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: -14px;
+     z-index: 1;
+     position: relative
+ }
+
+ .left-nav:before {
+     content: "";
+     position: absolute;
+     left: -80px;
+     top: 0;
+     width: 0;
+     height: 0;
+     border-style: solid;
+     border-width: 0 81px 61px 0;
+     border-color: transparent #242A38 transparent transparent
+ }
+
+
+
+ .left-nav ul {
+     display: flex;
+     padding: 0;
+     margin: 9px;
+     list-style: none;
+     gap: 40px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .left-nav ul li {
+     cursor: pointer;
+ }
+
+ .left-nav ul li a {
+     color: #fff;
+     text-decoration: none;
+     text-transform: capitalize;
+ }
+
+ .logo {
+     width: 348px;
+     height: 100%;
+     background-image: url(../../../assets/images/header/logobg.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     margin-top: -2px;
+     z-index: 2;
+
+ }
+
+ .logo img {
+     width: 158px;
+     object-fit: contain;
+     margin-left: 50%;
+     transform: translateX(-50%);
+ }
+
+ .right-nav {
+     flex: 1;
+     background-color: #242A38;
+     color: #fff;
+     height: 61px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: -17px;
+     z-index: 1;
+     position: relative;
+ }
+
+ .right-nav ul {
+     display: flex;
+     padding: 0;
+     margin: 9px;
+     list-style: none;
+     gap: 40px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .right-nav:after {
+     content: "";
+     position: absolute;
+     right: -80px;
+     width: 0;
+     height: 0;
+     border-style: solid;
+     border-width: 61px 81px 0 0;
+     border-color: #242A38 transparent transparent transparent;
+ }
